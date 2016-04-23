@@ -37,7 +37,17 @@ module.exports = React.createClass({
                 textDecoration: 'none',
               }}
             >
-              Gatsby!!!
+              Gatsby
+            </Link>
+
+            <Link
+              to={prefixLink('/about')}
+              style={{
+                color: 'black',
+                textDecoration: 'none',
+              }}
+            >
+              About Me
             </Link>
           </Container>
         </Headroom>
