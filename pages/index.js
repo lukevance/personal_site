@@ -10,9 +10,9 @@ export default class Sass extends React.Component {
     return (
       <div>
         <h1>
-          Hey everyone
+          Luke Vance - Full Stack Developer
         </h1>
-        <p>Welcome to your new Gatsby site</p>
+        <p>Welcome to my professional website, thanks for visiting.</p>
         <h2>Below are some pages showing different capabilities built-in to Gatsby</h2>
         <h3>Supported file types</h3>
         <ul>
