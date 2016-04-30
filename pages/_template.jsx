@@ -35,6 +35,7 @@ module.exports = React.createClass({
               style={{
                 color: 'black',
                 textDecoration: 'none',
+                marginRight: '1em'
               }}
             >
               Home
@@ -45,9 +46,32 @@ module.exports = React.createClass({
               style={{
                 color: 'black',
                 textDecoration: 'none',
+                marginRight: '1em'
               }}
             >
               About Me
+            </Link>
+
+            <Link
+              to={prefixLink('/projects/')}
+              style={{
+                color: 'black',
+                textDecoration: 'none',
+                marginRight: '1em'
+              }}
+            >
+              Projects
+            </Link>
+
+            <Link
+              to={prefixLink('/Blog/')}
+              style={{
+                color: 'black',
+                textDecoration: 'none',
+                marginRight: '1em'
+              }}
+            >
+              Blog
             </Link>
           </Container>
         </Headroom>
