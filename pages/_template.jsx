@@ -41,7 +41,7 @@ module.exports = React.createClass({
             </Link>
 
             <Link
-              to={prefixLink('/about')}
+              to={prefixLink('/about/')}
               style={{
                 color: 'black',
                 textDecoration: 'none',

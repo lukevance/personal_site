@@ -28,6 +28,9 @@ export default class Sass extends React.Component {
           <li>
             <Link to={prefixLink('/json/')}>JSON</Link>
           </li>
+          <li>
+            <Link to={prefixLink('/about/')}>About</Link>
+          </li>
         </ul>
         <h3>Supported CSS processors</h3>
         <ul>
