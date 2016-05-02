@@ -16,14 +16,6 @@ module.exports = React.createClass({
   render () {
     return (
       <div>
-        <Headroom
-          wrapperStyle={{
-            marginBottom: rhythm(1),
-          }}
-          style={{
-            background: 'rgb(61, 115, 61)',
-          }}
-        >
           <Container
             style={{
               maxWidth: 960,
@@ -75,7 +67,6 @@ module.exports = React.createClass({
               Blog
             </Link>
           </Container>
-        </Headroom>
         <Container
           style={{
             maxWidth: 960,

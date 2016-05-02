@@ -6,13 +6,13 @@ module.exports = React.createClass({
   propTypes () {
     return {
       title: React.PropTypes.string,
-    }
+    };
   },
   render () {
     let cssLink;
 
     if (process.env.NODE_ENV === 'production') {
-      cssLink = <link rel="stylesheet" href={prefixLink('/styles.css')} />
+      cssLink = <link rel="stylesheet" href={prefixLink('/styles.css')} />;
     }
 
     return (
@@ -34,6 +34,6 @@ module.exports = React.createClass({
           <script src={prefixLink('/bundle.js')} />
         </body>
       </html>
-    )
+    );
   },
-})
+});
