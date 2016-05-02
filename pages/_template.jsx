@@ -3,6 +3,7 @@ import { Container } from 'react-responsive-grid'
 import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
 import Headroom from 'react-headroom'
+import '../css/styles.scss';
 
 import { rhythm } from 'utils/typography'
 
@@ -20,7 +21,7 @@ module.exports = React.createClass({
             marginBottom: rhythm(1),
           }}
           style={{
-            background: 'lightgray',
+            background: 'rgb(61, 115, 61)',
           }}
         >
           <Container
@@ -33,7 +34,7 @@ module.exports = React.createClass({
             <Link
               to={prefixLink('/')}
               style={{
-                color: 'black',
+                color: 'white',
                 textDecoration: 'none',
                 marginRight: '1em'
               }}
@@ -80,6 +81,7 @@ module.exports = React.createClass({
             maxWidth: 960,
             padding: `${rhythm(1)} ${rhythm(1/2)}`,
             paddingTop: 0,
+            textAlign: 'center'
           }}
         >
           {this.props.children}

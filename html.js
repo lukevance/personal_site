@@ -1,9 +1,6 @@
 import React from 'react'
-import DocumentTitle from 'react-document-title'
-
 import { prefixLink } from 'gatsby-helpers'
 import { TypographyStyle } from 'utils/typography'
-
 
 module.exports = React.createClass({
   propTypes () {
@@ -12,9 +9,8 @@ module.exports = React.createClass({
     }
   },
   render () {
-    const title = DocumentTitle.rewind()
+    let cssLink;
 
-    let cssLink
     if (process.env.NODE_ENV === 'production') {
       cssLink = <link rel="stylesheet" href={prefixLink('/styles.css')} />
     }
@@ -28,7 +24,7 @@ module.exports = React.createClass({
             name="viewport"
             content="width=device-width, initial-scale=1.0 maximum-scale=1.0"
           />
-          <title>{title}</title>
+        <title>Luke Vance - Full Stack Developer</title>
           <link rel="shortcut icon" href={this.props.favicon} />
           <TypographyStyle />
           {cssLink}

@@ -9,8 +9,7 @@ export default class Sass extends React.Component {
   render () {
     return (
       <div>
-        <img src={""}></img>
-        <h1>
+        <h1 className="bojo">
           Luke Vance - Full Stack Developer
         </h1>
         <p>Welcome to my professional website, thanks for visiting.</p>
@@ -31,18 +30,6 @@ export default class Sass extends React.Component {
           </li>
           <li>
             <Link to={prefixLink('/about/')}>About</Link>
-          </li>
-        </ul>
-        <h3>Supported CSS processors</h3>
-        <ul>
-          <li>
-            <Link to={prefixLink('/postcss/')}>PostCSS</Link>
-          </li>
-          <li>
-            <Link to={prefixLink('/sass/')}>Sass</Link>
-          </li>
-          <li>
-            <Link to={prefixLink('/less/')}>Less</Link>
           </li>
         </ul>
       </div>
