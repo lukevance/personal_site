@@ -9,7 +9,7 @@ export default class Sass extends React.Component {
   render () {
     return (
       <div>
-        <img src={"http://mtnlandforsale.com/wp-content/uploads/2010/11/front-range.jpg"}></img>
+        <img src={""}></img>
         <h1>
           Luke Vance - Full Stack Developer
         </h1>
