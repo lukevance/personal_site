@@ -24,16 +24,6 @@ module.exports = React.createClass({
             >
             <Row>
               <Col xsHidden md={3} id={'leftSide'} className="sidebar">
-                <Link
-                  to={prefixLink('/')}
-                  style={{
-                    color: 'gray',
-                    textDecoration: 'none',
-                    marginRight: '1em'
-                  }}
-                >
-                  Home
-                </Link>
                 <img src={"https://placebear.com/200/300"}></img>
                 <h2>Luke Vance</h2>
                 <h4>Full Stack Developer</h4>
