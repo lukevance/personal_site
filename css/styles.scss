@@ -5,6 +5,19 @@ $firstColor: #006f9e;
 $secondColor: #4c008f;
 $thirdColor: #350038;
 
+body {
+}
+
+#leftSide {
+  height: 100vh;
+  background-color: $colorBlue;
+
+}
+
+.sidebar  {
+  text-align: center;
+  color: #fff;
+}
 
 .bojo {
   color: rgb(196, 74, 35);

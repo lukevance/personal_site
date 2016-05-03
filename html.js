@@ -26,6 +26,7 @@ module.exports = React.createClass({
           />
         <title>Luke Vance - Full Stack Developer</title>
           <link rel="shortcut icon" href={this.props.favicon} />
+          <link rel="stylesheet" href={"https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css"} />
           <TypographyStyle />
           {cssLink}
         </head>
