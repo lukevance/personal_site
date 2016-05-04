@@ -2,11 +2,14 @@ import React from 'react'
 import { Container } from 'react-responsive-grid'
 import { Link } from 'react-router'
 import { prefixLink } from 'gatsby-helpers'
+// import { link } from 'gatsby-helpers';
 // Bootstrap modules
 import { Grid } from 'react-bootstrap'
 import { Col } from 'react-bootstrap'
 import { Row } from 'react-bootstrap'
+import { Image } from 'react-bootstrap'
 import '../css/styles.scss';
+// import headshot from '../images/headshot.jpg';
 
 import { rhythm } from 'utils/typography';
 
@@ -24,7 +27,11 @@ module.exports = React.createClass({
             >
             <Row>
               <Col xsHidden md={3} id={'leftSide'} className="sidebar">
-                <img src={"https://placebear.com/200/300"}></img>
+                <Image
+                  src={ prefixLink('/images/headshot.jpg') }
+                  rounded={ true }
+                  >
+                </Image>
                 <h2>Luke Vance</h2>
                 <h4>Full Stack Developer</h4>
               </Col>
@@ -36,8 +43,6 @@ module.exports = React.createClass({
                     padding: `${rhythm(1)} ${rhythm(1/2)}`,
                   }}
                 >
-
-
                   <Link
                     to={prefixLink('/about/')}
                     style={{
