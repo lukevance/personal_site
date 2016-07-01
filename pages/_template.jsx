@@ -1,13 +1,12 @@
-import React from 'react'
-import { Container } from 'react-responsive-grid'
-import { Link } from 'react-router'
-import { prefixLink } from 'gatsby-helpers'
-// import { link } from 'gatsby-helpers';
+import React from 'react';
+import { Container } from 'react-responsive-grid';
+import { Link } from 'react-router';
+import { prefixLink } from 'gatsby-helpers';
 // Bootstrap modules
-import { Grid } from 'react-bootstrap'
-import { Col } from 'react-bootstrap'
-import { Row } from 'react-bootstrap'
-import { Image } from 'react-bootstrap'
+import { Grid } from 'react-bootstrap';
+import { Col } from 'react-bootstrap';
+import { Row } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 import '../css/styles.scss';
 // import headshot from '../images/headshot.jpg';
 
@@ -28,59 +27,41 @@ module.exports = React.createClass({
             <Row>
               <Col xsHidden md={3} id={'leftSide'} className="sidebar">
                 <Image
+                  style= {{paddingTop: 10}}
                   src={ prefixLink('/images/headshot.jpg') }
-                  rounded={ true }
+                  rounded={ false }
                   >
                 </Image>
                 <h2>Luke Vance</h2>
                 <h4>Full Stack Developer</h4>
+                  <Container
+                    className="mainNav"
+                    >
+                    <Link
+                      to={prefixLink('/about/')}
+                    >
+                      About
+                    </Link>
+
+                    <Link
+                      to={prefixLink('/projects/')}
+                    >
+                      Projects
+                    </Link>
+
+                    <Link
+                      to={prefixLink('/Blog/')}
+                    >
+                      Blog
+                    </Link>
+                  </Container>
               </Col>
-              <Col md={9}>
-                <Container
-                  style={{
-                    maxWidth: 960,
-                    paddingTop: 0,
-                    padding: `${rhythm(1)} ${rhythm(1/2)}`,
-                  }}
-                >
-                  <Link
-                    to={prefixLink('/about/')}
-                    style={{
-                      color: 'black',
-                      textDecoration: 'none',
-                      marginRight: '1em'
-                    }}
-                  >
-                    About Me
-                  </Link>
-
-                  <Link
-                    to={prefixLink('/projects/')}
-                    style={{
-                      color: 'black',
-                      textDecoration: 'none',
-                      marginRight: '1em'
-                    }}
-                  >
-                    Projects
-                  </Link>
-
-                  <Link
-                    to={prefixLink('/Blog/')}
-                    style={{
-                      color: 'black',
-                      textDecoration: 'none',
-                      marginRight: '1em'
-                    }}
-                  >
-                    Blog
-                  </Link>
-                </Container>
+              <Col md={9} mdOffset={3}>
                 <Container
                   style={{
                     maxWidth: 960,
                     padding: `${rhythm(1)} ${rhythm(1/2)}`,
-                    paddingTop: 0,
+                    paddingTop: 50,
                     textAlign: 'center'
                   }}
                 >
@@ -94,6 +75,6 @@ module.exports = React.createClass({
 
 
       </div>
-    )
+    );
   },
-})
+});

@@ -1,6 +1,6 @@
-import React from 'react'
-import { prefixLink } from 'gatsby-helpers'
-import { TypographyStyle } from 'utils/typography'
+import React from 'react';
+import { prefixLink } from 'gatsby-helpers';
+import { TypographyStyle } from 'utils/typography';
 
 module.exports = React.createClass({
   propTypes () {
