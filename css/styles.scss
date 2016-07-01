@@ -39,6 +39,16 @@ body {
   }
 }
 
+.markdown {
+  p {
+    font-size: 1rem;
+  }
+  .source-link {
+    font-size: .8rem;
+    text-decoration: none;
+  }
+}
+
 .bojo {
   color: rgb(196, 74, 35);
 }
