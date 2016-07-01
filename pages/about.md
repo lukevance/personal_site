@@ -1,4 +1,4 @@
 ---
 title: About Me
 ---
-Life has been quite an adventure so far. I have lived in many places and done a variety of things, none particularly well. 
+Growing up in Central Asia gave me a unique perspective which has fueled my love of challenges that force me to think differently and practice creativity. I am passionate about social enterprises and energy innovation and before gSchool I ran my own solar energy startup. Although, it was an unsuccessful endeavor I learned immensely from the failure and look forward to using my experience in the importance of validated learning and rapid iteration to influence my future work at a fast paced technology company.

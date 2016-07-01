@@ -22,24 +22,7 @@ export default class Sass extends React.Component {
           <h3> - Mark Twain</h3>
         </Jumbotron>
         <Button bsStyle="default" bsSize="large">Hey</Button>
-        <ul>
-          <li>
-            <Link to={prefixLink('/markdown/')}>Markdown</Link>
-          </li>
-          <li>
-            <Link to={prefixLink('/react/')}>JSX (React components)</Link>
-          </li>
-          <li>
-            <Link to={prefixLink('/html/')}>HTML</Link>
-          </li>
-          <li>
-            <Link to={prefixLink('/json/')}>JSON</Link>
-          </li>
-          <li>
-            <Link to={prefixLink('/about/')}>About</Link>
-          </li>
-        </ul>
       </div>
-    )
+    );
   }
 }

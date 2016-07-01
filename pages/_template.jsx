@@ -61,8 +61,7 @@ module.exports = React.createClass({
                   style={{
                     maxWidth: 960,
                     padding: `${rhythm(1)} ${rhythm(1/2)}`,
-                    paddingTop: 50,
-                    textAlign: 'center'
+                    paddingTop: 50
                   }}
                 >
                   {this.props.children}
