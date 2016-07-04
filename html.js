@@ -1,6 +1,7 @@
 import React from 'react';
 import { prefixLink } from 'gatsby-helpers';
 import { TypographyStyle } from 'utils/typography';
+// import { homeAnimation } from 'utils/animations';
 
 module.exports = React.createClass({
   propTypes () {
@@ -33,6 +34,7 @@ module.exports = React.createClass({
         <body>
           <div id="react-mount" dangerouslySetInnerHTML={{ __html: this.props.body }} />
           <script src={prefixLink('/bundle.js')} />
+          <script src={"https://cdn.jsdelivr.net/scrollreveal.js/3.1.4/scrollreveal.min.js"} />
         </body>
       </html>
     );
