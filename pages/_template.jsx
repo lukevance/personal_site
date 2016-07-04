@@ -12,6 +12,8 @@ import '../css/styles.scss';
 
 import { rhythm } from 'utils/typography';
 
+let mainBackground = prefixLink('/images/main-background-bw.jpg');
+
 module.exports = React.createClass({
   propTypes () {
     return {
@@ -25,7 +27,15 @@ module.exports = React.createClass({
             fluid={true}
             >
             <Row>
-              <Col xsHidden md={3} id={'leftSide'} className="sidebar">
+              <Col
+                xsHidden md={3}
+                id={'leftSide'}
+                className="sidebar"
+                style = {{
+                  backgroundImage: 'url(' + mainBackground + ')',
+                  backgroundRepeat: 'no repeat'
+                }}
+                >
                 <Image
                   style= {{paddingTop: 10}}
                   src={ prefixLink('/images/headshot.jpg') }
@@ -56,7 +66,15 @@ module.exports = React.createClass({
                     </Link>
                   </Container>
               </Col>
-              <Col md={9} mdOffset={3}>
+              <Col
+                md={9}
+                mdOffset={3}
+                style={{
+                  if () {
+
+                  }
+                }}
+                >
                 <Container
                   style={{
                     maxWidth: 960,
@@ -64,7 +82,23 @@ module.exports = React.createClass({
                     paddingTop: 50
                   }}
                 >
-                  {this.props.children}
+                <Row>
+                  <Col
+                    md={2}
+                    mdOffset={10}>
+                    <ul>
+                      <li>Facebook</li>
+                      <li>Twitter</li>
+                      <li>Linkedin</li>
+                    </ul>
+                  </Col>
+                </Row>
+                <Row>
+                  <Col
+                    md={12}>
+                    {this.props.children}
+                  </Col>
+                </Row>
                 </Container>
               </Col>
 

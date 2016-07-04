@@ -21,7 +21,6 @@ export default class Sass extends React.Component {
           <h2>You can't depend on your eyes when your imagination is out of focus.</h2>
           <h3> - Mark Twain</h3>
         </Jumbotron>
-        <Button bsStyle="default" bsSize="large">Hey</Button>
       </div>
     );
   }
