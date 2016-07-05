@@ -12,7 +12,7 @@ import '../css/styles.scss';
 
 import { rhythm } from 'utils/typography';
 
-let mainBackground = prefixLink('/images/main-background-bw.jpg');
+// let mainBackground = prefixLink('/images/main-background-bw.jpg');
 
 module.exports = React.createClass({
   propTypes () {
@@ -31,10 +31,6 @@ module.exports = React.createClass({
                 xsHidden md={3}
                 id={'leftSide'}
                 className="sidebar"
-                style = {{
-                  backgroundImage: 'url(' + mainBackground + ')',
-                  backgroundRepeat: 'no repeat'
-                }}
                 >
                 <Image
                   style= {{paddingTop: 10}}
@@ -48,6 +44,11 @@ module.exports = React.createClass({
                     className="mainNav"
                     >
                     <Link
+                      to={prefixLink('/')}
+                    >
+                      Home
+                    </Link>
+                    <Link
                       to={prefixLink('/about/')}
                     >
                       About
@@ -60,7 +61,7 @@ module.exports = React.createClass({
                     </Link>
 
                     <Link
-                      to={prefixLink('/Blog/')}
+                      to={prefixLink('/blog/')}
                     >
                       Blog
                     </Link>
@@ -69,11 +70,6 @@ module.exports = React.createClass({
               <Col
                 md={9}
                 mdOffset={3}
-                style={{
-                  if () {
-
-                  }
-                }}
                 >
                 <Container
                   style={{
@@ -82,17 +78,6 @@ module.exports = React.createClass({
                     paddingTop: 50
                   }}
                 >
-                <Row>
-                  <Col
-                    md={2}
-                    mdOffset={10}>
-                    <ul>
-                      <li>Facebook</li>
-                      <li>Twitter</li>
-                      <li>Linkedin</li>
-                    </ul>
-                  </Col>
-                </Row>
                 <Row>
                   <Col
                     md={12}>
@@ -104,9 +89,6 @@ module.exports = React.createClass({
 
             </Row>
           </Grid>
-
-
-
       </div>
     );
   },
