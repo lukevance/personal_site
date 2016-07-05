@@ -28,7 +28,9 @@ module.exports = React.createClass({
             >
             <Row>
               <Col
-                xsHidden md={3}
+
+                sm={4}
+                md={3}
                 id={'leftSide'}
                 className="sidebar"
                 >
@@ -68,6 +70,8 @@ module.exports = React.createClass({
                   </Container>
               </Col>
               <Col
+                sm={8}
+                smOffset={4}
                 md={9}
                 mdOffset={3}
                 >
