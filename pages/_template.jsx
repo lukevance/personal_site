@@ -7,6 +7,7 @@ import { Grid } from 'react-bootstrap';
 import { Col } from 'react-bootstrap';
 import { Row } from 'react-bootstrap';
 import { Image } from 'react-bootstrap';
+// import icons from 'simple-line-icons';
 import '../css/styles.scss';
 // import headshot from '../images/headshot.jpg';
 
@@ -67,6 +68,17 @@ module.exports = React.createClass({
                     >
                       Blog
                     </Link>
+                  </Container>
+                  <Container className="socialNav">
+                    <a href="//github.com/lukevance">
+                      <span className="icon-social-github"></span>
+                    </a>
+                    <a href="//linkedin.com/in/lukevance">
+                      <span className="icon-social-linkedin"></span>
+                    </a>
+                    <a href="//twitter.com/lukealanv">
+                      <span className="icon-social-twitter"></span>
+                    </a>
                   </Container>
               </Col>
               <Col
