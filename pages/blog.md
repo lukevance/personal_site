@@ -3,20 +3,20 @@ title: Blog
 ---
 
 
-## Lessons learned From My First Hackathon
+## Lessons Learned From My First Hackathon
 Date: Friday June 15, 2016
 
 ![FocoTrain Ninja Theme from Name.com](../images/focotrainninja.jpg)
 
 >- *Quick shout out to my awesome teammates for their hard work and tequila drinking skills, without which these groundbreaking lessons would not have been possible.* {.list}
 
-Before my foray into the world of software, I imagined a hackathon to be inaccessible to the general public, where a secret handshake might be necessary to gain entrance. I imagined behind these locked doors would be something in between Houston's mission control center during Apollo 13 and an officially sanctioned Dungeons and Dragons tournament. However, as my understanding of the software community has grown in the last year, I became enamored with the goal of attending one.
+Before my foray into the world of software, I imagined a hackathon to be inaccessible to the general public, something where a secret handshake might be necessary to gain entrance. I imagined behind these locked doors would be something in between Houston's mission control center during Apollo 13 and an officially sanctioned Dungeons and Dragons tournament. However, as my understanding of the software community grew in the last year, I became enamored with the thought of attending one.
 
-Finally, my chance came last week at the notable and highly acclaimed first official "[Code For Foco](//codeforfoco.org/) Hack the Dot", presented by Name.com. I know what you're thinking, what was a hackathon noob like myself doing at an event like that? What'd I tell you, I go big.
+Finally, my chance came last week at the notable and highly acclaimed first official "[Code For Foco](//codeforfoco.org/) Hack the Dot", presented by Name.com. I know what you're thinking, what was a hackathon noob like myself doing at an event where the stakes were so high? What'd I tell you, I go big.
 
-The stage was huge and the press coverage unprecedented, yet the committee of organizers did a superb job in keeping the mood light and rowdy crowds under control. When the dust settled and the hordes of spectators were gone, I had a chance to reflect on the experience. I found it not only adrenaline pumping and unforgettable, but also significantly enlightening in regards to **teamwork, problem solving, and rapid product development.**
+The stage was huge and the press coverage unprecedented, yet the committee of organizers did a superb job in keeping the mood light and the rowdy crowds under control. When the dust settled and the hordes of spectators were gone, I had a chance to reflect on the experience. I found it not only adrenaline pumping and unforgettable, but also significantly enlightening in regards to **teamwork, problem solving, and rapid product development.**
 
-I came prepared and when the throngs of attendees poured in through the door I was nervously watching. I quickly picked out a team of elite engineers and creative thinkers from the four friends who took pity on my empty table. After my thorough evaluation, I was surprised to find that all of them qualified. To my utter surprise the host announced that the judging criteria would be **creativity** and **humour**. When she announced that the grand prize was that the winning project would remain on the domain/theme: FocoTrain.ninja, I nearly peed, but kept this to myself and we were off. With only 90 minutes to produce something worthy of presenting to the hungry onlookers, many of the team were anxious to begin working, but this brings us to lesson number 1.
+I came prepared and when the throngs of attendees poured in through the door I was nervously watching. I quickly picked out a team of elite engineers and creative thinkers from the four friends who took pity on my empty table. After my thorough evaluation, I was surprised to find that all of them qualified. To my utter surprise the host announced that the judging criteria would be **creativity** and **humour**, two areas where I struggle significantly. When she announced that the grand prize was that the winning project would remain on the domain/theme: FocoTrain.ninja, I nearly peed, but kept this to myself and we were off. With only 90 minutes to produce something worthy of presenting to the hungry onlookers, many of the team were anxious to begin working, but this brings us to lesson number 1.
 
 #### Lesson 1: Question Your Assumptions
 ---
