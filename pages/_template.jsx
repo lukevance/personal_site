@@ -29,15 +29,15 @@ module.exports = React.createClass({
             >
             <Row>
               <Col
-
                 sm={4}
                 md={3}
                 id={'leftSide'}
                 className="sidebar"
                 >
                 <Image
-                  style= {{paddingTop: 10}}
-                  src={ prefixLink('/images/headshot.jpg') }
+                  style= {{marginTop: 10}}
+                  className="img-rounded"
+                  src={ prefixLink('/images/bio_pic.jpg') }
                   rounded={ false }
                   >
                 </Image>
