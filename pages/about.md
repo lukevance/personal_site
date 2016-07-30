@@ -6,6 +6,7 @@ Growing up in Central Asia gave me a unique perspective which has fueled my love
 
 
 ### Resume [(Download PDF)](//resume.lukevance.me)
+
 <img
   src="../images/LukeVance-Resume.jpg"
   class="resume">
